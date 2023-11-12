@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Jesse Merriman - VetsPlace - Capstone Style Guide  -->
+<!-- The primary focus of this design is to ensure user-friendliness and high visibility while using the VetsPlace application.  -->
+<!-- Careful consideration was given to the choice of initial elements. A grey background was chosen as the base to minimize eyestrain during long hours of computer use.  -->
+<!-- An attention-grabbing orange color is utilized when hovering over interactive segments, enhancing efficiency and speeding up user interactions.  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetsPlace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #969696;
+            color: #282828;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .button {
+            background-color: #acacac;
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #ff9d00;
+        }
+
+        a {
+            text-decoration: underline;
+            color: #000000;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #000000;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .search-container {
+            position: relative;
+            margin-top: 20px;
+            margin-left: 760px;
+        }
+
+        .search-input {
+            width: 200px;
+            padding: 10px;
+            border: none;
+            border-radius: 25px;
+            outline:#000000
+        }
+
+        .search-icon {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 200px;
+            color:#ff9d00
+        }
+        .search-input:hover{
+            background-color: #ff9d00;
+            transition: background-color 0.3s ease;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>VetsPlace - Jesse Merriman</h1>
+        <p>This Styleguide is to showcase some of the elements that will be used in the application.</p>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <i class="search-icon">&#128269;</i>
+        </div>
+        <a href="#" class="button">Buttons</a>
+    </div>
+</body>
+
+</html>
